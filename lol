@@ -4,7 +4,7 @@ shared["F​F​l​a​g​A​X​C​o​m​b​i​n​e​G​e​t​O​
     },
     
     ["Universal"] = {
-        ['Indicators'] = { ['Enabled'] = (true) },
+        ['Indicators'] = { ['Enabled'] = (false) },
     },
     
     ["SilentAim"] = {
@@ -13,9 +13,9 @@ shared["F​F​l​a​g​A​X​C​o​m​b​i​n​e​G​e​t​O​
         ['Field'] = ('Box'), --[[ Box, Circle ]]
         ['Mode'] = ('Automatic'), --[[ Automatic, Target ]]
                                                                                                                  --[[ Must have Automated enabled to use these (prediction formula for offbrands) ]]
-        ['Prediction'] = { ['Enabled'] = (true), ['Ground'] = (0.109), ['Air'] = (0.109), ['Automated'] = (true), ['Stabilize'] = (4.8), ['YStabilize'] = { ['Enabled'] = (false), ['Value'] = (2) } },
+        ['Prediction'] = { ['Enabled'] = (true), ['Ground'] = (0.109), ['Air'] = (0.109), ['Automated'] = (true), ['Stabilize'] = (4.9), ['YStabilize'] = { ['Enabled'] = (false), ['Value'] = (2) } },
                                                           --[[ Basic, Advanced ]]
-        ['Point'] = ('Nearest Point'), ['Scale'] = (0.2), ['Type'] = ('Advanced'), --[[ "Nearest Part", "Nearest Point", "Default" ]]
+        ['Point'] = ('Nearest Point'), ['Scale'] = (0.18), ['Type'] = ('Advanced'), --[[ "Nearest Part", "Nearest Point", "Default" ]]
         ['Parts'] = {'Head'} --[[ https://create.roblox.com/docs/reference/engine/enums/BodyPartR15 ]]
     },
     
@@ -29,7 +29,7 @@ shared["F​F​l​a​g​A​X​C​o​m​b​i​n​e​G​e​t​O​
 
         ['Prediction'] = { ['Enabled'] = (false), ['Ground'] = (0.11), ['Air'] = (0.11) },
                                                             --[[ Basic, Advanced ]]
-        ['Point'] = ('Default'), ['Scale'] = (0.2), ['Type'] = ('Basic'), --[[ "Nearest Part", "Nearest Point", "Default" ]]
+        ['Point'] = ('Default'), ['Scale'] = (0.18), ['Type'] = ('Basic'), --[[ "Nearest Part", "Nearest Point", "Default" ]]
         ['Parts'] = {'Head'}, --[[ https://create.roblox.com/docs/reference/engine/enums/BodyPartR15 ]]
 
         ['Easing'] = ('Linear')
@@ -48,7 +48,7 @@ shared["F​F​l​a​g​A​X​C​o​m​b​i​n​e​G​e​t​O​
     
         ['Interval'] = { ['Enabled'] = (false), ['Weapon'] = { ['[Double-Barrel SG]'] = (1), ['[TacticalShotgun]'] = (1), ['[Revolver]'] = (1) } }, --[[ In MS ]]--
       
-        ['Magnitude'] = { ['Weapon'] = { ['[Double-Barrel SG]'] = { X = (26), Y = (50) }, ['[TacticalShotgun]'] = { X = (50), Y = (50) }, ['[Revolver]'] = { X = (26), Y = (50) } } } --[[ Keep these lower for legit cheating, higher for rage ]]
+        ['Magnitude'] = { ['Weapon'] = { ['[Double-Barrel SG]'] = { X = (26), Y = (42) }, ['[TacticalShotgun]'] = { X = (26), Y = (42) }, ['[Revolver]'] = { X = (26), Y = (42) } } }
     },
 
     ["Physics"] = {
@@ -87,10 +87,10 @@ shared["F​F​l​a​g​A​X​C​o​m​b​i​n​e​G​e​t​O​
     },
     
     ["Fields"] = {
-        ['AimAssistField'] = { ['Size'] = (210) },
-        ['SilentAimField'] = { ['Size'] = (110) },
+        ['AimAssistField'] = { ['Size'] = (200) },
+        ['SilentAimField'] = { ['Size'] = (200) },
         ['TriggerBotField'] = { ['Size'] = (4) }, --[[ For offbrands ]]
-        ['SilentAimBoxField'] = { ['Visible'] = (false), ['Sync'] = (true), ['Width'] = (2.8), ['Height'] = (3.8) }
+        ['SilentAimBoxField'] = { ['Visible'] = (false), ['Sync'] = (true), ['Width'] = (3.6), ['Height'] = (3.9) }
     },
 }
 
